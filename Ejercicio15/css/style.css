@@ -1,0 +1,52 @@
+div {
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor {
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#div1 {
+    background-image: url(../imagenes/foto1.jpg);
+}
+
+#div2 {
+    background-image: url(../imagenes/foto2.jpg);
+}
+
+#div3 {
+    background-image: url(../imagenes/foto3.jpg);
+}
+
+#div4 {
+    background-image: url(../imagenes/foto4.jpg);
+}
+
+#div5 {
+    background-image: url(../imagenes/foto5.jpg);
+}
+
+#div6 {
+    background-image: url(../imagenes/foto6.jpg);
+}
+
+#div7 {
+    background-image: url(../imagenes/foto7.jpg);
+}
+
+#div8 {
+    background-image: url(../imagenes/foto8.jpg);
+}
