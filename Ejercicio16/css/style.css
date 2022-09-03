@@ -1,0 +1,13 @@
+p{
+    display: inline;
+    font-size: 50px;
+}
+
+div{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    border: 3px solid black;
+}

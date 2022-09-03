@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio13</title>
+</head>
+<script src="js/codigo.js"></script>
+
+<body>
+    <p onclick="alertaDocumento()">Parrafo 1</p>
+
+    <table>
+        <tr>
+            <td>
+                <p onclick="alertaDocumento()">Parrafo 2</p>
+            </td>
+            <td>
+                <p onclick="alertaDocumento()">Parrafo 3</p>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <p onclick="alertaDocumento(), alertaTablaDos()">Parrafo 4</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p onclick="alertaDocumento(), alertaTablaDos()">Parrafo 5</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
